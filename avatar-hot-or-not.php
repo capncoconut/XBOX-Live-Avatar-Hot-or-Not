@@ -78,53 +78,6 @@ $next_page= $page+1;
 $up_next_link = '<a href="'.$scriptName.'?p='.$next_page.'">';
 $vote_link = $scriptName.'?p='.$next_page;
 
-/*
-######################
-# Create gamer objects
-######################
-if ($page == '-1'){
-$profiles = get_profiles($page);
-//$gamerLast = new gamers($profiles[0]);
-$gamerCurrent = new gamers($profiles[1]);
-$gamerNext = new gamers($profiles[2]);
-
-$gamerLast = new gamers('0');
-$gamerLast->setScore('0.0');
-$gamerLast->setVotes('0');
-$gamerLast->setImg('/img/avatar_body.png');
-$gamerLast->setGamertag('Avatar');
-
-
-}else{
-$profiles = get_profiles($page);
-
-if (!empty($profiles)){
-
-//$profiles = get_profiles($page);
-$gamerLast = new gamers($profiles[0]);
-$gamerCurrent = new gamers($profiles[1]);
-$gamerNext = new gamers($profiles[2]);
-
-}else{
-
-//no more entries go back to begining
-
-$profiles = get_profiles('0');
-$gamerLast = new gamers($profiles[0]);
-$gamerCurrent = new gamers($profiles[1]);
-$gamerNext = new gamers($profiles[2]);
-
-$next_page= '1';
-$up_next_link = '<a href="'.$scriptName.'?p='.$next_page.'">';
-$vote_link = $scriptName.'?p='.$next_page;
-
-
-}
-//$gamerNext->setImg('/img/avatar_body.png');
-
-}
-
-*/
 
 ######################
 # Create gamer objects
@@ -384,7 +337,7 @@ $gamerLast = new gamers($search_gamer);
 }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<!-- KILL ANALYTICS -->
+<!-- MURDER ANALYTICS -->
 
 	<div id="hotBox">
 
