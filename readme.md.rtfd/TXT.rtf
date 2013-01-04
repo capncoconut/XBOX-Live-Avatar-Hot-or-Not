@@ -1,0 +1,45 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red7\green59\blue146;\red242\green242\blue242;}
+\margl1440\margr1440\vieww16800\viewh13600\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 /*\
+#######################\
+#      README MOFOS	 #\
+#######################\
+\
+*/\
+\
+The world needs more hot or not sites, such as, hot or not dogs, hot or not republicans, hot or not democrats, hot or not stoves. Well you get the picture. So we're (@daseinmoney) and I (@jgrebski) are releasing this bit of code for you to do whatever you damn well please with it. \
+\
+To get this SOB working you'll need the following things. \
+1. a database with two, I repeat two tables.\
+2. a place to put these here files. \
+\
+Once uploaded to your server, github pages, whatever, open up "include_files/info.php" in a code editor and enter in your db info. \
+\
+NEXT, you must create two, I repeat, TWO tables in your DB (PostgreSQL, MySQL or other relational)\
+\
+Table ONE 
+\b flags
+\b0 , you'll create 3 columns, flag_id, profile_id and status, it should look like this\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 {{\NeXTGraphic flag_structure.png \width11120 \height1780
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\
+then make the SECOND table, call this 
+\b profiles
+\b0  and make the following columns, gamer tag, email, img, img_icon, date_submitted, and it should look like this. \
+
+\b \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\b0 \cf0 {{\NeXTGraphic profiles_strucutre.png \width13180 \height3140
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\
+And now everything should be working as intended and you should have your very own Party Up Gamer version of Avatar Hot or Not. One last thing, this code is licensed under Creative Commons License {\field{\*\fldinst{HYPERLINK "http://creativecommons.org/licenses/by-nc-sa/3.0/"}}{\fldrslt 
+\f1\b \cf2 \cb3 \ul \ulc2 Attribution-NonCommercial-ShareAlike 3.0 Unported}}}
