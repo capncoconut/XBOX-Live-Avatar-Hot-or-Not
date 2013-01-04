@@ -29,3 +29,4 @@ Like So:
 
 And now everything should be working as intended and you should have your very own Party Up Gamer version of Avatar Hot or Not. One last thing, this code is licensed under Creative Commons License Attribution-NonCommercial-ShareAlike 3.0 Unported
 
+Oh, and this jazz was made by myself @jgrebski and @daseinmonkey. 
